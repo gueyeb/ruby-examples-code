@@ -20,12 +20,11 @@ false.class #=> FalseClass
 # Strings are objects
 
 'I am a string'.class #=> String
-"I am a string too".class #=> String
+'I am a string too'.class #=> String
 
-placeholder = "use string interpolation"
+placeholder = 'use string interpolation'
 "I can #{placeholder} when using double quoted strings"
 #=> "I can use string interpolation when using double quoted strings"
-
 
 # print to the output
 puts "I'm printing!"

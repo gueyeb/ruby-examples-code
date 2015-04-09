@@ -7,7 +7,7 @@
 
 # Arrays can contain different types of items
 
-array = [1, "hello", false] #=> => [1, "hello", false]
+array = [1, 'hello', false] #=> => [1, "hello", false]
 
 # Arrays can be indexed
 # From the front
@@ -34,7 +34,7 @@ array << 6 #=> [1, 2, 3, 4, 5, 6]
 
 # Hashes are Ruby's primary dictionary with keys/value pairs.
 # Hashes are denoted with curly braces:
-hash = {'color' => 'green', 'number' => 5}
+hash = { 'color' => 'green', 'number' => 5 }
 
 hash.keys #=> ['color', 'number']
 

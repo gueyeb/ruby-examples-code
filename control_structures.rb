@@ -3,11 +3,11 @@
 # Control structures
 
 if true
-  "if statement"
+  'if statement'
 elsif false
- "else if, optional"
+  'else if, optional'
 else
- "else, also optional"
+  'else, also optional'
 end
 
 for counter in 1..5
@@ -33,7 +33,7 @@ end
 #=> iteration 5
 
 counter = 1
-while counter <= 5 do
+while counter <= 5
   puts "iteration #{counter}"
   counter += 1
 end
@@ -47,15 +47,15 @@ grade = 'B'
 
 case grade
 when 'A'
-  puts "Way to go kiddo"
+  puts 'Way to go kiddo'
 when 'B'
-  puts "Better luck next time"
+  puts 'Better luck next time'
 when 'C'
-  puts "You can do better"
+  puts 'You can do better'
 when 'D'
-  puts "Scraping through"
+  puts 'Scraping through'
 when 'F'
-  puts "You failed!"
-else 
-  puts "Alternative grading system, eh?"
+  puts 'You failed!'
+else
+  puts 'Alternative grading system, eh?'
 end

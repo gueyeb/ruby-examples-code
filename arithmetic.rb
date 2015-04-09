@@ -9,5 +9,4 @@
 # Arithmetic is just syntactic sugar
 # for calling a method on an object
 1.+(3) #=> 4
-10.* 5 #=> 50 
-
+10.* 5 #=> 50

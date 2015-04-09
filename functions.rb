@@ -14,23 +14,23 @@ double 3 #=> 6
 
 double double 3 #=> 12
 
-def sum(x,y)
+def sum(x, y)
   x + y
 end
 
 # Method arguments are separated by a comma
 sum 3, 4 #=> 7
 
-sum sum(3,4), 5 #=> 12
+sum sum(3, 4), 5 #=> 12
 
 # yield
 # All methods have an implicit, optional block parameter
 # it can be called with the 'yield' keyword
 
 def surround
-  puts "{"
+  puts '{'
   yield
-  puts "}"
+  puts '}'
 end
 
 surround { puts 'hello world' }
